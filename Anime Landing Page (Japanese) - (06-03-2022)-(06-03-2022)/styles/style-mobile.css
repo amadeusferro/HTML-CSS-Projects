@@ -1,0 +1,52 @@
+@media screen and (max-width: 1169px) {
+    img{
+        width: 470px;
+    }
+    h2{
+        font-size: 39px;
+    }
+    p{
+        width: 470px;
+    }
+}
+@media screen and (max-width: 949px){
+    header{
+        align-self: center;
+        flex-direction: column;
+    }
+    h1 br{
+        display: none;
+    }
+    ul{
+        text-align: center;
+        padding: 0px;
+    }
+    li{
+        margin: 7px;
+    }
+    a{
+        font-size: 13px;
+        padding: 0px;
+    }
+    main{
+        justify-content: center;
+    }
+    h2{
+        font-size: 37px;
+        margin-top: 10px;
+    }
+    p{
+        font-size: .9em;
+    }
+    form{
+        margin: 0px;
+        width: 100%;
+    }
+    input{
+        align-self: center;
+        width: 70%;
+    }
+    aside{
+        display: none;
+    }
+}

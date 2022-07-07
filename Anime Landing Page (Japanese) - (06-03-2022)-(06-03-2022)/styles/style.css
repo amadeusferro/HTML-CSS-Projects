@@ -1,0 +1,106 @@
+/*
+Created by novice Brazilian developer called Amadeus Ferro on June 03, 2022, to practice HTML and CSS technologies by himself.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=RocknRoll+One&display=swap');
+
+  :root{
+    --background-color: rgb(34, 34, 34);
+    --featured-color: #3258DF;
+    --font01: 'M PLUS 1p', sans-serif;
+    --font02: 'RocknRoll One', sans-serif;
+  }
+  
+  body{
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 1200px;
+    font-family: var(--font01);
+    background-color: rgb(34, 34, 34);
+    color: white;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1{
+    font-size: 30px;
+    line-height: 34px;
+    font-family: var(--font02);
+    font-weight: lighter;
+  }
+  .title a{
+    text-decoration: none;
+    color: white;
+  }
+  .title a:hover{
+    color: white;
+  }
+  span{
+    color: var(--featured-color);
+  }
+  li{
+    display: inline-block;
+    border: 20px;
+    margin: 20px;
+  }
+  nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  a:hover{
+    color: var(--featured-color);
+    transition: .6s all;
+  }
+  #subscribe{
+    border: solid 2px var(--featured-color);
+    border-radius: 20px;
+    padding: 10px;
+  }
+  #subscribe:hover{
+    background-color: var(--featured-color);
+    color: white;
+  }
+  main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  aside{
+    margin-left: 40px;
+  }
+  img{
+    width: 500px;
+  }
+  h2{
+    font-size: 50px;
+    font-family: var(--font02);
+    font-weight: normal;
+    line-height: 60px;
+    margin-bottom: 25px;
+  }
+  p{
+    width: 530px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  input{
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 16px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+  }
+  input[type="submit"]{
+    width: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: var(--featured-color);
+    height: 50px;
+  }

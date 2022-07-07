@@ -1,0 +1,63 @@
+Technology Curiosities
+
+Everything you ever wanted to know about the Tech world, in one place!
+
+[MENU]
+Home
+News
+Curiosities
+Contact
+
+Android Mascot History
+
+You probably know that the Android operating system, maintained by Google, is one of the most used for mobile devices in the world. But maybe you don't know that your friendly pet has a name and a very curious history. Well, follow this article to learn a lot about this little robot.
+
+The first version
+
+The first attempt at creating a mascot came in 2007 from a developer named Dan Morrill. He says that he opened Inkscape (free software for vectorizing images) and created his own version of a robot. The goal was just to personify the system just for his team, there was no request from the company to create a mascot.
+
+[PHOTO]
+
+This first bizarre version was even named in honor of its creator: "The Dandroids".
+
+A new mascot appears
+
+The idea of having a mascot matured, and the mission was passed on to a professional in the area. The russian illustrator Irina Blok, also a Google employee, was given the mission to represent the little robot in a more pleasant way.
+
+[PHOTO]
+
+Irina's main idea was to represent everything graphically with few strokes and in a flatter way. The drawing should also generate quick identification with the viewer. Then came the Bugdroid, the new mascot of Android.
+
+[PHOTO]
+
+The main inspiration for the features of the new Bugdroid came from those little dolls that illustrate bathroom doors to indicate the gender of each door. Legend has it that the artist was creating on her desk at Google's office and looked towards the bathrooms and the identification was immediate: simple, clean, objective.
+
+[VIDEO]
+ 
+[EXTRA] Want to learn more?
+
+Another curious thing about Android is that each version has always been named after a sweet, in alphabetical order from version 1.5 to 9.0.
+
+1.5 - Cupcake
+1.6 - Donut
+3.0 - Éclair
+2.2 - Froyo
+2.3 - Gingerbread
+3.0 - Honeycomb
+4.0 - Ice Cream Sandwich
+4.1 - Jelly Bean
+4.4 - KitKat
+5.0 - Lollipop
+6.0 - Marshmallow
+7.0 - Nougat
+8.0 - Oreo
+9.0 - Pie
+
+Unfortunately, Android Q did not exist, because Google decided to put an end to this fun practice and started using numbers, which gave rise to Android 10.
+
+Access the Android History website here to learn about the sequence of the "sweetened" versions and what each one brought to the Android system.
+[/EXTRA]
+
+Then that's it! I hope you enjoyed our article with this curiosity about the Android system and its friendly mascot.
+         
+Site created by Amadeus Ferro for CursoemVideo.

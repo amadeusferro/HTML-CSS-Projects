@@ -1,0 +1,180 @@
+/*
+Created by novice Brazilian developer called Amadeus Ferro on May 27, 2022, to May 28, 2022, to practice HTML and CSS technologies by himself, using CursoemVideo's HTML and CSS course as a base.
+*/
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url(fonts/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --color0: #c5ebd6;
+    --color1: #83e1ad;
+    --color2: #3ddc84;
+    --color3: #2fa866;
+    --color4: #1a5c37;
+    --color5: #063d1e;
+
+    --default-font: Arial, Verdana, Helvetica, sans-serif;
+    --featured-font: 'Bebas Neue', 'cursive';
+    --android-font: 'Android', 'cursive';
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--color0);
+    font-family: var(--default-font);
+}
+header{
+    background-image: linear-gradient(to bottom, var(--color3), var(--color5));
+    text-align: center;
+    padding-top: 40px;
+    min-height: 150px;
+}
+header > h1{
+    font-family: var(--featured-font);
+    color: white;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+}
+header > p{
+    color: white;
+    font-family: var(--default-font);
+    font-size: 1.3em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
+}
+nav {
+    background-color: var(--color5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.404);
+}
+nav > a{
+    color: var(--color1);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+nav > a:hover{
+    background-color: var(--color3);
+    color: var(--color5);
+}
+main{
+    background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+main h1{
+    font-family: var(--android-font);
+    color: var(--color5);
+    font-size: 1.8em;
+    font-weight: normal;
+}
+main h2{
+    font-family: var(--android-font);
+    color: var(--color4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--color1), transparent);
+    text-indent: 8px;
+    font-weight: normal;
+}
+main p{
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+    margin: 15px 0px;
+    text-indent: 30px;
+}
+main p strong {
+    color: var(--color5);
+}
+main p a{
+    text-decoration: none;
+    color: var(--color5);
+    background-color: var(--color1);
+    font-weight: bold;
+    padding: 2px 6px;
+}
+main p a:hover{
+    text-decoration: underline;
+}
+main p a::after{
+    content: "\00a0\1F517";
+}
+main img{
+    width: 100%;
+}
+main img.small{
+    display: block;
+    margin: auto;
+    max-width: 360px;
+}
+main div.video{
+    background-color: var(--color5);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+main div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+main aside{
+    background-color: var(--color1);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.295);
+    border-radius: 10px;
+    padding: 0px 10px 10px 10px;
+}
+main aside h3{
+    color: white;
+    background-color: var(--color4);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 10px -10px 10px -10px;
+}
+main aside ul{
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\2714\00a0\00a0';
+}
+footer{
+    color: white;
+    background-color: var(--color5);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+}
+footer a{
+    color: var(--color1);
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer a:hover{
+    text-decoration: underline;
+}

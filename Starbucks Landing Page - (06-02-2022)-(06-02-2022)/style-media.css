@@ -1,0 +1,100 @@
+@media screen and (max-width: 1120px) {    /*iPad*/
+    .circle{
+        top: 152px;
+        right: -564px;
+    }
+    .circle img{
+        width: 366px;
+        top: -30px;
+        right: 26px;
+    }
+    h1{
+        font-size: 54px;
+    }
+    p{
+        width: 480px;
+    }
+    .extras{
+        right: -230px;
+        top: 177px;
+    }
+    .social-medias{
+        top: 209px;
+        right: 0px;
+    }
+}
+@media screen and (max-width: 1000px){    /*iPhone6*/
+    body{
+        width: 100%;
+    }
+    header{ 
+        justify-content: center;
+    }
+    .logo img{
+        margin-top: 10px;
+        margin-left: -95px;
+    }
+    nav{
+        margin: 0px;
+        padding: 0px;
+    }
+    nav a {
+        margin: 10px;
+    }
+    main{
+        justify-content: center;
+        margin-top: 10px;
+    }
+    h1{
+        font-size: 50px;
+        margin-left: -50px;
+    }
+    p{
+        width: 400px;
+        margin-left: -50px;
+    }
+    button{
+        margin-left: -50px;
+    }
+    .social-medias {
+        position: absolute;
+        top: 443px;
+        right: 4px;
+    }
+    .extras{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 584px;
+        right: 300px;
+    }
+    .extras a{
+        margin: 4px;
+    }
+    .circle{
+        width: 1000px;
+        height: 1000px;
+        top: 268px;
+        right: -692px;
+    }
+    .circle img{
+        width: 220px;
+        top: 53px;
+        right: -29px;
+    }
+}
+@media screen and (max-height: 600px) and (max-width: 630px){    /*Iphone5*/
+    .circle img{
+        width: 189px;
+        top: 31px;
+        right: -52px;
+    }
+    .social-medias {
+        top: 395px;
+        right: 4px;
+    }
+    .extras{
+        top: 485px;
+        right: 290px;
+    }
+}

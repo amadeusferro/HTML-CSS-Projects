@@ -1,0 +1,133 @@
+/*
+Created by novice Brazilian developer called Amadeus Ferro on June 08, 2022, to practice HTML and CSS technologies by himself.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #f5f7fa;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 44px;
+    padding: 10px 0;
+}
+.navbar i{
+    font-size: 1.5rem;
+    color: #dadedfe6;
+}
+.navbar i:nth-child(1){
+    color: #fe4c6d;
+}
+.navbar i:hover{
+    cursor: pointer;
+}
+
+/* photo, description and actions */
+
+.main{
+    height: calc(100vh - 44px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo-container{
+    width: 98vw;
+    height: 85vh;
+    border-radius: 10px;
+    background: url(../components/images/girl.jpeg) center center/cover;
+    color: #eee;
+    box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.text{
+    padding: 15px;
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+        180deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(35, 34, 65, 0) 0%,
+        rgba(0, 0, 0, 0.7) 52%
+    );
+    border-radius: 10px;
+}
+.name-and-age{
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 1.4rem;
+}
+.age{
+    margin-left: 10px;
+    font-weight: 500;
+}
+.description{
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.actions-container{
+    display: flex;
+    flex: auto;
+    margin: 1rem 0;
+    align-items: center;
+}
+.action{
+    background: #ffff;
+    box-shadow: 0 2px 6px 0 rgba(112, 125, 134, 0.14);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 2rem;
+    transition: transform 500ms ease;
+}
+.action:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.action:nth-child(1){
+    color: #fd5068;
+}
+.action:nth-child(2){
+    color: #2db1ff;
+    margin: 0 1rem;
+    height: 48px;
+    width: 48px;
+    font-size: 1.5rem;
+}
+.action:nth-child(3){
+    color: #1be4a1;
+}
+
+/* desktop view */
+
+@media(min-width: 1025px){
+    .navbar{
+        width: 400px;
+        margin: auto;
+    }
+    .photo-container{
+        width: 367px;
+        height: 684px;
+    }
+}

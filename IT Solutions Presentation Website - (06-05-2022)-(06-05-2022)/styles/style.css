@@ -1,0 +1,239 @@
+/*
+Created by novice Brazilian developer called Amadeus Ferro on June 05, 2022, to practice HTML and CSS technologies by himself.
+*/
+
+/* general settings */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #eee;
+}
+a:hover{
+    color: rgb(192, 189, 189);
+    transition: .6s all;
+}
+
+/* navbar */
+
+#navbar{
+    background: #111;
+    color: #eee;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+.navbar-container h1{
+    font-size: 2rem;
+}
+.navbar-container ul{
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+}
+.navbar-container li{
+    padding: 10px;
+}
+
+/* showcase */
+
+#showcase{
+    width: 100%;
+    height: 100vh;
+    background: url(../components/images/showcase.jpg) no-repeat center center/cover;
+    display: flex;
+    color: #eee;
+    align-items: center;
+    justify-content: center;
+    /* overlay */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+}
+.showcase-container{
+    text-align: center;
+}
+.showcase-container h1{
+    font-size: 2.5rem;
+}
+.showcase-container p{
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+.btn{
+    display: inline-block;
+    background-color: #111;
+    color: #eee;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background 500ms ease;
+}
+.btn:hover{
+    background-color: #000;
+    color: #eee;
+    cursor: pointer;
+}
+
+/* clients */
+
+.headline{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+#clients{
+    width: 100%;
+    background: #eee;
+    color: #111;
+    padding: 50px;
+}
+.clients-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15px;
+    justify-items: center;
+}
+.client{
+    width: 25%;
+    display: inline-block;
+}
+
+/* features */
+
+#features{
+    width: 100%;
+    background-color: #222;
+    color: #eee;
+    padding: 50px;
+}
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    margin: auto;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    border-radius: 5px;
+    padding: 20px;
+}
+.feature-tittle{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* product */
+
+#product{
+    width: 100%;
+    padding: 50px;
+}
+.product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.items{
+    width: 650px;
+}
+.item{
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+.item p{
+    padding-left: 10px;
+}
+
+/* testimonials */
+
+#testimonials{
+    width: 100%;
+    padding: 50px;
+    background: #222;
+    color: #eee;
+}
+.testimonials-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial{
+    background: #333;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.testimonial-name{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+.person-image{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+/* gallery */
+
+#gallery{
+    width: 90%;
+    padding: 50px;
+    margin: auto;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+.gallery-image{
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    transition: .6s all ease-in-out;
+}
+.gallery-image:hover{
+    transform: scale(1.04);
+}
+
+/* footer */
+
+#footer{
+    background: #111;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+}

@@ -1,0 +1,121 @@
+/*
+Created by novice Brazilian developer called Amadeus Ferro on June 01, 2022, to practice HTML and CSS technologies by himself.
+*/
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../components/fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../components/fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../components/fonts/poppins-medium-webfont.woff2') format('woff2'),
+         url('../components/fonts/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../components/fonts/poppins-light-webfont.woff2') format('woff2'),
+         url('../components/fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  :root{
+    --background-color: rgb(34, 34, 34);
+    --featured-color: #9B06CE;
+    --font01: 'poppinsregular';
+    --font02: 'poppinsmedium';
+    --font03: 'poppinslight';
+  }
+
+  body{
+    background-color: var(--background-color);
+    font-family: var(--font01);
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #title{
+    line-height: 10px;
+    flex-direction: column;
+  }
+  li{
+    display: inline-block;
+    margin: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    color: var(--featured-color);
+    transition: 0.3s all;
+  }
+  #subscribe{
+    border: 2px solid var(--featured-color);
+    padding: 10px;
+    border-radius: 15px;
+  }
+  #subscribe:hover{
+    background-color: var(--featured-color);
+    color: white;
+  }
+  main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  h1{
+    font-weight: 200;
+  }
+  h2{
+    font-size: 56px;
+    font-family: var(--font02);
+    line-height: 10px;
+  }
+  span{
+    color: var(--featured-color);
+  }
+  p{
+    font-family: var(--font03);
+    width: 500px;
+    line-height: 20px;
+  }
+  img{
+    width: 578px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  input{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 20px;
+    border: none;
+    font-size: 15px;
+    padding: 15px;
+  }
+  input[type="submit"]{
+    width: 50%;
+    color: var(--featured-color);
+    font-weight: bold;
+    color: white;
+    background-color: var(--featured-color);
+    height: 50px;
+  }
+  input[type="submit"]:hover{
+    cursor: pointer;
+  }

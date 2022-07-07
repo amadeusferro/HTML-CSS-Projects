@@ -1,0 +1,251 @@
+/*
+Created by novice Brazilian developer called Amadeus Ferro on June 06, 2022, to practice HTML and CSS technologies by himself.
+*/
+
+/* general settings */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #eee;
+}
+a{
+    color: #eee;
+    text-decoration: none;
+    transition: all 0.6s ease-in-out;
+}
+a:hover{
+    color: rgb(219, 108, 108);
+}
+
+/* navbar */
+
+#navbar{
+    width: 100%;
+    height: 80px;
+    background: #111;
+    position: fixed;
+    z-index: 1;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+}
+.navbar-container h1{
+    font-size: 2rem;
+}
+.navbar-container ul{
+    display: flex;
+    list-style: none;
+}
+.navbar-container li{
+    padding: 20px;
+}
+
+/* showcase */
+
+#showcase{
+    width: 100%;
+    height: 100vh;
+    color: #eee;
+    background: url(../components/images/showcase.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overlay */
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: color;
+}
+.showcase-container{
+    text-align: center;
+    max-width: 90%;
+}
+.showcase-container h1{
+    font-size: 2.5rem;
+}
+.showcase-container p{
+    font-size: 1.2rem;
+    padding: 7px 0;
+}
+.showcase-container .btn{
+    display: inline-block;
+    background-color: #111;
+    color: #eee;
+    padding: 15px 60px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background 0.6s ease;
+}
+.showcase-container .btn:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+
+/* dishes */
+
+.headline{
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+#dishes{
+    width: 100%;
+    color: #111;
+    padding: 50px;
+}
+.dishes-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 50px;
+    justify-items: center;
+    padding: 15px;
+    
+}
+.dishes-container img{
+    width: 100%;
+    display: inline-block;
+    transition: .6s all ease-in-out;
+}
+.dishes-container img:hover{
+    transform: scale(1.1);
+}
+
+/* services */
+
+#services{
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: auto;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    background: #333;
+    padding: 20px;
+    border-radius: 5px;
+}
+.service-tittle{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.service i{
+    padding-bottom: 5px;
+}
+
+/* features */
+
+#product-features{
+    width: 100%;
+    color: #222;
+    padding: 50px;
+}
+.product-features-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-features-container img{
+    width: 35%;
+    padding-right: 10px;
+}
+.features{
+    width: 650px;
+}
+.feature{
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.1rem;
+}
+.feature p{
+    padding-left: 10px;
+}
+
+/* testimonials */
+
+#testimonials{
+    width: 100%;
+    padding: 50px;
+    background: #222;
+    color: #eee;
+}
+.testimonials-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonial{
+    display: flex;
+    align-items: center;
+    background: #333;
+    font-size: 1.2rem;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.testimonial img{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+.person-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* gallery */
+
+#gallery{
+    width: 90%;
+    color: #222;
+    padding: 50px;
+    margin: auto;
+}
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+.gallery-container img{
+    width: 100%;
+    display: inline-block;
+    border-radius: 5px;
+    transition: .6s ease-out;
+}
+.gallery-container img:hover{
+    transform: scale(1.04);
+}
+
+/* footer */
+
+#footer{
+    background: #111;
+    color: #eee;
+    padding: 30px;
+    text-align: center;
+}

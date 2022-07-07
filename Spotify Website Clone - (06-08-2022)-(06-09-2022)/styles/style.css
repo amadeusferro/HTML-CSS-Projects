@@ -1,0 +1,240 @@
+/*
+Created by novice Brazilian developer called Amadeus Ferro on June 08, 2022 until June 09, 2022, to practice HTML and CSS technologies by himself.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+
+#navbar{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 52px;
+}
+.logo{
+    width: 11.1%;
+    cursor: pointer;
+}
+.actions{
+    display: flex;
+    list-style: none;
+}
+.action{
+    padding: 0 20px;
+    transition: all 300ms ease;
+}
+.action:nth-child(4){
+    padding: 0 0px;
+    margin: 0 10px;
+    height: 16px;
+    width: 1px;
+    background: white;
+}
+.action:nth-child(5){
+    color: #CBDADC;
+}
+.action:nth-child(6){
+    color: #CBDADC;
+}
+.action:hover{
+    color: #0ED760;
+    cursor: pointer;
+}
+.action:nth-child(4):hover{
+    cursor: initial;
+}
+
+/* showcase */
+
+#showcase{
+    width: 100%;
+    height: 846px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../components/images/showcase.webp) center center/cover;
+    background-color: rgb(0, 0, 0, 0.4);
+    background-blend-mode: color;
+    color: white;
+}
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+}
+.title{
+    font-size: 78px;
+    line-height: 170px;
+    margin-top: 165px;
+    margin-bottom: 40px;
+}
+.title h1:nth-child(2){
+    text-indent: 290px;
+}
+.showcase-container p{
+    font-size: 1.1rem;
+}
+.btn{
+    color: white;
+    font-weight: bold;
+    background: #1ED760;
+    border-radius: 40px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 100ms ease;
+    margin: 45px;
+}
+.btn:hover{
+    background: #2DE26D;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+/* footer */
+
+#footer{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    height: 100%;
+    margin-top: 100px;
+}
+.footer-container1 img{
+    width: auto;
+    height: 40px;
+    margin-top: -20px;
+    margin-right: -40px;
+}
+.footer-container1 img:hover{
+    cursor: pointer;
+}
+.list-actions{
+    list-style: none;
+}
+.list-actions p{
+    color: #919483;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    padding-bottom: 20px;
+}
+.list-action{
+    padding: 12px 0;
+    transition: all 300ms ease;
+}
+.list-action:hover{
+    color: #0ED760;
+    cursor: pointer;
+}
+.social-medias{
+    display: flex;
+    margin-left: 100px;
+}
+.social-media{
+    background: #222326;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 1.2rem;
+    margin: 0 6px;
+    width: 55px;
+    height: 55px;
+    transition: all 300ms ease;
+}
+.social-media:hover{
+    color: #0ED760;
+    cursor: pointer;
+}
+.social-media:nth-child(1){
+    font-size: 1.7rem;
+}
+.social-media:nth-child(3){
+    margin-right: 0;
+}
+.footer-container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 0.8rem;
+    color: #919483;
+    margin-bottom: 60px;
+    width: 91.5%;
+    height: 100%;
+}
+.list-settings{
+    display: flex;
+    list-style: none;
+}
+.list-setting{
+    padding: 0 10px;
+    transition: all 300ms ease;
+}
+.list-setting:hover{
+    color: #0ED760;
+    cursor: pointer;
+}
+.extras{
+    display: flex;
+    flex-direction: column;
+}
+.extras p{
+    display: flex;
+    justify-content: flex-end;
+}
+.country{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+.country p{
+    margin-right: 6px;
+    transition: all 300ms ease;
+}
+.country p:hover{
+    color: #0ED760;
+    cursor: pointer;
+}
+.country img{
+    width: 20px;
+    height: auto;
+}
