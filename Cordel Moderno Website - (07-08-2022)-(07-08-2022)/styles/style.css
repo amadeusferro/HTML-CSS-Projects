@@ -1,0 +1,88 @@
+/*
+Created by novice Brazilian developer called Amadeus Ferro on July 08, 2022, to practice HTML and CSS technologies by himself.
+
+Github: https://github.com/amadeusferro
+LinkedIn: https://www.linkedin.com/in/amadeusferro
+E-mail: contact.amadeusferro@gmail.com
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-variant: small-caps;
+    font-family: 'Passion One', cursive;
+    font-size: 10vw;
+    padding-top: 50px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+header p{
+    padding-bottom: 50px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* main */
+
+article{
+    font-family: 'Sriracha', cursive;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+.background-1, .background-2{
+    background-image: url(../components/images/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+}
+.background-2{
+    background-image: url(../components/images/background002.jpg);
+    background-position: initial;
+}
+.background-1 p, .background-2 p{
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
